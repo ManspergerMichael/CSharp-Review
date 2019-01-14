@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/michaelmansperger/Documents/GitHub/C#Review/cTutorial/cTutorial.csproj",
+      "projectUniqueName": "/Users/michaelmansperger/Documents/GitHub/CSharp-Review/cTutorial/cTutorial.csproj",
       "projectName": "cTutorial",
-      "projectPath": "/Users/michaelmansperger/Documents/GitHub/C#Review/cTutorial/cTutorial.csproj",
+      "projectPath": "/Users/michaelmansperger/Documents/GitHub/CSharp-Review/cTutorial/cTutorial.csproj",
       "packagesPath": "/Users/michaelmansperger/.nuget/packages/",
-      "outputPath": "/Users/michaelmansperger/Documents/GitHub/C#Review/cTutorial/obj/",
+      "outputPath": "/Users/michaelmansperger/Documents/GitHub/CSharp-Review/cTutorial/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
