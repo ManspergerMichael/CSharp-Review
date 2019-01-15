@@ -1,0 +1,11 @@
+/Users/michaelmansperger/Documents/GitHub/CSharp-Review/cTutorial2/bin/Debug/netcoreapp2.1/cTutorial2.deps.json
+/Users/michaelmansperger/Documents/GitHub/CSharp-Review/cTutorial2/bin/Debug/netcoreapp2.1/cTutorial2.runtimeconfig.json
+/Users/michaelmansperger/Documents/GitHub/CSharp-Review/cTutorial2/bin/Debug/netcoreapp2.1/cTutorial2.runtimeconfig.dev.json
+/Users/michaelmansperger/Documents/GitHub/CSharp-Review/cTutorial2/bin/Debug/netcoreapp2.1/cTutorial2.dll
+/Users/michaelmansperger/Documents/GitHub/CSharp-Review/cTutorial2/bin/Debug/netcoreapp2.1/cTutorial2.pdb
+/Users/michaelmansperger/Documents/GitHub/CSharp-Review/cTutorial2/obj/Debug/netcoreapp2.1/cTutorial2.csprojAssemblyReference.cache
+/Users/michaelmansperger/Documents/GitHub/CSharp-Review/cTutorial2/obj/Debug/netcoreapp2.1/cTutorial2.csproj.CoreCompileInputs.cache
+/Users/michaelmansperger/Documents/GitHub/CSharp-Review/cTutorial2/obj/Debug/netcoreapp2.1/cTutorial2.AssemblyInfoInputs.cache
+/Users/michaelmansperger/Documents/GitHub/CSharp-Review/cTutorial2/obj/Debug/netcoreapp2.1/cTutorial2.AssemblyInfo.cs
+/Users/michaelmansperger/Documents/GitHub/CSharp-Review/cTutorial2/obj/Debug/netcoreapp2.1/cTutorial2.dll
+/Users/michaelmansperger/Documents/GitHub/CSharp-Review/cTutorial2/obj/Debug/netcoreapp2.1/cTutorial2.pdb
