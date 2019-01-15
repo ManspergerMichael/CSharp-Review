@@ -101,6 +101,27 @@ namespace cTutorial
                 i++;
             }
 
+            //do while
+            string guess;
+            do
+            {
+                System.Console.WriteLine("Guess a number");
+                guess = Console.ReadLine();
+
+            }
+            while(! guess.Equals("42"));
+
+            //for loop
+            for (int j = 0; j < 10; j++)
+            {
+                if(j % 2 > 0)
+                {
+                    System.Console.WriteLine(i);
+                }
+            }
+
+            
+
         }
     }
 }
