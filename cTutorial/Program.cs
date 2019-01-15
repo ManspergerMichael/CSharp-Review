@@ -74,7 +74,12 @@ namespace cTutorial
                 System.Console.WriteLine("Take them out back for exicution!");
             }
 
+            //Trinary operateor
             
+            //if age >= 16 assign true to canDrive. Else assign false
+            bool canDrive = age >= 16 ? true : false;
+
+            int canDrive2 = age >= 16 ? 1 : 0;
 
         }
     }
