@@ -121,14 +121,30 @@ namespace cTutorial
                 }
             }
             //foreach loop with random
-            string randStr = "Here are some random characters";
+            string randStr = "message";
             foreach(char c in randStr)
             {
                 Console.WriteLine(c);
             }
             System.Console.WriteLine();
 
+            //arrays 
+            //initalizeations
+            int[] randArray;
+            int[] randArray1 = new int[5];
+            int[] randArray2 = {1,2,3,4,5};
 
+            System.Console.WriteLine("array length " + randArray2.Length);
+            System.Console.WriteLine("first element " + randArray2[0]);
+
+            for(int x = 0; x < randArray2.Length; x++)
+            {
+                System.Console.WriteLine("{0}:{1}", x, randArray2[x]);
+            }
+            foreach(int num in randArray2)
+            {
+                System.Console.WriteLine(num);
+            }
 
         }
     }
