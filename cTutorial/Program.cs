@@ -102,14 +102,15 @@ namespace cTutorial
             }
 
             //do while
-            string guess;
-            do
+            //this caused problems not sure why.
+            //string guess;
+           /*  do
             {
                 System.Console.WriteLine("Guess a number");
                 guess = Console.ReadLine();
 
             }
-            while(! guess.Equals("42"));
+            while(!guess.Equals("42")); */
 
             //for loop
             for (int j = 0; j < 10; j++)
@@ -119,11 +120,11 @@ namespace cTutorial
                     System.Console.WriteLine(j);
                 }
             }
-
+            //foreach loop with random
             string randStr = "Here are some random characters";
             foreach(char c in randStr)
             {
-                Console.Write(c);
+                Console.WriteLine(c);
             }
             System.Console.WriteLine();
 
