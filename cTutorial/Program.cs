@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace cTutorial
 {
@@ -166,6 +167,33 @@ namespace cTutorial
                     System.Console.WriteLine("{0} | {1} : {2}",y,z,multArray2[y,z]);
                 }
             }
+
+
+            //lists
+            List<int> numList = new List<int>();
+
+            numList.Add(5);
+            numList.Add(15);
+            numList.Add(25);
+
+            int[] randArray3 = {1,2,3,4,5};
+            numList.AddRange(randArray3);
+            //can also initalize a list with an array
+
+            numList.Insert(1,10);
+            numList.Remove(5);
+            numList.RemoveAt(2);
+
+            for(int a = 0; a < numList.Count; a++)
+            {
+                System.Console.WriteLine(numList[a]);
+            }
+            //element at index
+            numList.IndexOf(4);
+            //search for value
+            numList.Contains(5);
+            //sort
+            numList.Sort();
 
         }
     }
