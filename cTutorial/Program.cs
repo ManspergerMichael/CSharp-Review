@@ -81,6 +81,26 @@ namespace cTutorial
 
             int canDrive2 = age >= 16 ? 1 : 0;
 
+            //loops
+            
+            int i = 0;
+            while(i < 10)
+            {
+                if(i == 7)
+                {
+                    i++;
+                    continue; //skips the rest of the loop for one iteration
+                }
+                if(i == 9){
+                    break; //ends the loop
+                }
+                if((i%2)>0)
+                {
+                    System.Console.WriteLine(i);
+                }
+                i++;
+            }
+
         }
     }
 }
