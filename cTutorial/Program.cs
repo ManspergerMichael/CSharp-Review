@@ -37,6 +37,19 @@ namespace cTutorial
             //string formating
             System.Console.WriteLine("Another name is {0}", name);
 
+            //casting
+            //if no presiscion is lost casting will happen automaticly
+            double pi = 3.14159;
+            int intPi = (int)pi;
+
+            //some math functions
+            double number1 = 10.5;
+            double number2 = 15;
+            System.Console.WriteLine("Math.Abs " + (Math.Abs(number1))); //abolute value (neg to pos)
+            System.Console.WriteLine(Math.Ceiling(number1)+ " Round Up"); //round up
+            System.Console.WriteLine(Math.Floor(number1)+ " Round Down");
+
+
         }
     }
 }
