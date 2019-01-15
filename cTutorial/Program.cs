@@ -23,13 +23,19 @@ namespace cTutorial
             //large numbers
             long maxLong;
             decimal Dec;
-            
+
             //32 bit, 7 levels of presicion
             float floatInt;
             //32 bit number with 15 decimals of presicion
             double Dubs;
 
+            //C# can use var data types but is restricted to the data type it is initalized to
+            var name = "Billy Everyteen";
+            //produces an error
+            //name = 2;
 
+            //string formating
+            System.Console.WriteLine("Another name is {0}", name);
 
         }
     }
