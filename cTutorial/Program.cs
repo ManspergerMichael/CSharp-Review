@@ -114,13 +114,20 @@ namespace cTutorial
             //for loop
             for (int j = 0; j < 10; j++)
             {
-                if(j % 2 > 0)
+                if(j % 2 != 0)
                 {
-                    System.Console.WriteLine(i);
+                    System.Console.WriteLine(j);
                 }
             }
 
-            
+            string randStr = "Here are some random characters";
+            foreach(char c in randStr)
+            {
+                Console.Write(c);
+            }
+            System.Console.WriteLine();
+
+
 
         }
     }
