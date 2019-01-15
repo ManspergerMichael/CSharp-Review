@@ -45,14 +45,36 @@ namespace cTutorial
             //some math functions
             double number1 = 10.5;
             double number2 = 15;
-            System.Console.WriteLine("Math.Abs " + (Math.Abs(number1))); //abolute value (neg to pos)
+            /* System.Console.WriteLine("Math.Abs " + (Math.Abs(number1))); //abolute value (neg to pos)
             System.Console.WriteLine(Math.Ceiling(number1)+ " Round Up"); //round up
-            System.Console.WriteLine(Math.Floor(number1)+ " Round Down");
+            System.Console.WriteLine(Math.Floor(number1)+ " Round Down"); */
 
             //random numbers
             Random rand = new Random();
             System.Console.WriteLine("Random number between 1 and 10 " + rand.Next(1,11));
 
+            //if-else
+
+            int age = 17;
+            if((age >= 5)&&(age <7))
+            {
+                System.Console.WriteLine("To the coal mines with you!");
+            }
+            else if((age > 7)&&(age < 13))
+            {
+                System.Console.WriteLine("To the Factory with you!");
+            }
+            else
+            {
+                System.Console.WriteLine("To the front lines with you!");
+            }
+
+            if((age > 50))
+            {
+                System.Console.WriteLine("Take them out back for exicution!");
+            }
+
+            
 
         }
     }
