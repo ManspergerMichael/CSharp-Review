@@ -49,6 +49,10 @@ namespace cTutorial
             System.Console.WriteLine(Math.Ceiling(number1)+ " Round Up"); //round up
             System.Console.WriteLine(Math.Floor(number1)+ " Round Down");
 
+            //random numbers
+            Random rand = new Random();
+            System.Console.WriteLine("Random number between 1 and 10 " + rand.Next(1,11));
+
 
         }
     }
