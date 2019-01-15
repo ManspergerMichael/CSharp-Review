@@ -146,6 +146,27 @@ namespace cTutorial
                 System.Console.WriteLine(num);
             }
 
+            string[] names = {"Tom", "Paul", "Sally"};
+            string nameStr = string.Join(", ", names);
+            string[] nameArray = nameStr.Split(',');
+
+            //2d array
+            int[,] multArray = new int[5,3];
+            int[,] multArray2 = {{0,1},{2,3},{4,5}};
+
+            foreach(int num in multArray2)
+            {
+                System.Console.WriteLine(num);
+            }
+            //looping through multi arrays with for loops
+            for(int y = 0; y < multArray2.GetLength(0); y++)
+            {
+                for(int z = 0; z < multArray2.GetLength(1); z++)
+                {
+                    System.Console.WriteLine("{0} | {1} : {2}",y,z,multArray2[y,z]);
+                }
+            }
+
         }
     }
 }
