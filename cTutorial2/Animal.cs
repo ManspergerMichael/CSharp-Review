@@ -14,6 +14,7 @@ namespace cTutorial2
             this.weight = 0;
             this.sound = "No sound";
             this.sound = "No name";
+            numOfAnimals ++;
         }
         //constructor with args
         public Animal(double height, double weight, string name, string sound)
@@ -22,6 +23,14 @@ namespace cTutorial2
             this.weight = weight;
             this.sound = sound;
             this.sound = name;
+            numOfAnimals ++;
+        }
+
+        //static fields, variables shared by all instances of object
+        static int numOfAnimals = 0;
+        public static int getNumOfAnimals()
+        {
+            return numOfAnimals;
         }
     }
 }
