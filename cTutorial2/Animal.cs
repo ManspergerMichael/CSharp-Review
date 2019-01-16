@@ -28,9 +28,14 @@ namespace cTutorial2
 
         //static fields, variables shared by all instances of object
         static int numOfAnimals = 0;
+        //static methods can access static fields
         public static int getNumOfAnimals()
         {
             return numOfAnimals;
+        }
+        public string toString()
+        {
+            return string.Format("{0} is {1} inches tall, weighs {2} lbs and likes to say {3}", name, height, weight, sound);
         }
     }
 }
