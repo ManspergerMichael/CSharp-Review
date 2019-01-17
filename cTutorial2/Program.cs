@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace cTutorial2
 {
     class Program
@@ -27,6 +28,10 @@ namespace cTutorial2
                 System.Console.WriteLine(ex.GetType().Name);
                 System.Console.WriteLine(ex.Message);
             }
+            Animal spot = new Animal(15,10,"Spot", "Woof");
+
+            System.Console.WriteLine("{0} says {1}", spot.name,spot.sound);
+            System.Console.WriteLine("Number of Animals " + Animal.getNumOfAnimals());
         }
     }
 }
